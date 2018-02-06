@@ -1,4 +1,4 @@
-# Atticus the Hipster Slackbot & Using Slack as an Aggregator
+# Atticus the Hipster Slackbot, and Using Slack as an Aggregator
 
 **Atticus the Hipster Slackbot.** 
 
@@ -23,20 +23,38 @@ I organize feeds by interest. I use the convention that `#intel-` channels have 
 ![](https://raw.githubusercontent.com/njoubert/atticus-bot/master/assets/slack-channels-01.png)
 
 **Mute channels that you don't want notifications for**
+
 ![](https://github.com/njoubert/atticus-bot/blob/master/assets/slack-mute.png)
 
-## Feeding Information into Slack
+## Feeding Information into Slack (Not Atticus)
 
 ### RSS Feeds
 
-RSS feeds are natively supported by Slack. Add RSS feeds to channels as follows:
+Many blogs and news sources provide RSS feeds: a continually updated list of theeir content. RSS feeds are natively supported by Slack. Add RSS feeds to channels as follows:
 
 ```
 /feed subscribe <URL>
 ```
 
-I use a Chrome Extension to find RSS feed links.
+RSS links can be hard to find. I use a Chrome Extension to find RSS feed links: ["Get RSS Feed URL"](https://github.com/shevabam/get-rss-feed-url-extension)
+
+#### Youtube Channels
+
+Youtube Channels provide RSS feeds! This is a great way to keep up to date on high quality content, such as new university courses.
 
 ### IFTTT 
 
+IFTTT ("if this, then that") can connect a large set of online services to Slack. It makes it _very simple_ to connect services to Slack, but it doesn't have much customization options.
+
+It works especially great if you want to monitor a _search_, such as Craigslist, for new results.
+
 #### Craigslist
+
+I use IFTTT.com to monitor Craigslist searches.
+
+## Using Atticus
+
+Atticus is designed to cover the _non-mainstream_ areas of the internet. Things like personal webpages (No RSS feed, no IFTTT). Atticus will post to the slack channel of your choosing whenever something happens in the dark corners of the internet.
+
+
+## Example Use Cases of this Setup

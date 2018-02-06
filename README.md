@@ -1,7 +1,8 @@
 # Atticus the Hipster Slackbot & Using Slack as an Aggregator
 
 **Atticus the Hipster Slackbot.** 
-_Atticus keeps you on the cutting edge of your interests. We've automated the First Mover Advantage_
+
+_Atticus keeps you on the cutting edge of your interests. Yes, we've automated the First Mover Advantage_
 
 ## Motivation / Problem Statement
 

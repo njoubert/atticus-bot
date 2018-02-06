@@ -16,11 +16,14 @@ I'd like a *push-based*, *flexible* system. I believe **Slack** might be the cur
 
 ## How To Use Slack as an Aggregator
 
-We have multiple ways to get data into slack. Here's the ones I use.
-
 **Organizing Feeds into Channels**
 
 I organize feeds by interest. I use the convention that `#intel-` channels have automated feeds posting data.  
+
+![](https://raw.githubusercontent.com/njoubert/atticus-bot/master/assets/slack-channels-01.png)
+
+**Mute channels that you don't want notifications for**
+![](https://github.com/njoubert/atticus-bot/blob/master/assets/slack-mute.png)
 
 ## Feeding Information into Slack
 

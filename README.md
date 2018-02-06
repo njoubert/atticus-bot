@@ -23,6 +23,7 @@ I organize feeds by interest. I use the convention that `#intel-` channels have 
 ![](https://raw.githubusercontent.com/njoubert/atticus-bot/master/assets/slack-channels-01.png)
 
 **Mute channels that you don't want notifications for**
+
 ![](https://github.com/njoubert/atticus-bot/blob/master/assets/slack-mute.png)
 
 ## Feeding Information into Slack

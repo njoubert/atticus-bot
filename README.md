@@ -38,6 +38,10 @@ Many blogs and news sources provide RSS feeds: a continually updated list of the
 
 RSS links can be hard to find. I use a Chrome Extension to find RSS feed links: ["Get RSS Feed URL"](https://github.com/shevabam/get-rss-feed-url-extension)
 
+#### Youtube Channels
+
+Youtube Channels provide RSS feeds! This is a great way to keep up to date on high quality content, such as new university courses.
+
 ### IFTTT 
 
 IFTTT ("if this, then that") can connect a large set of online services to Slack. It makes it _very simple_ to connect services to Slack, but it doesn't have much customization options.
@@ -51,3 +55,6 @@ I use IFTTT.com to monitor Craigslist searches.
 ## Using Atticus
 
 Atticus is designed to cover the _non-mainstream_ areas of the internet. Things like personal webpages (No RSS feed, no IFTTT). Atticus will post to the slack channel of your choosing whenever something happens in the dark corners of the internet.
+
+
+## Example Use Cases of this Setup

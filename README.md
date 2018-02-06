@@ -1,4 +1,4 @@
-# Atticus the Hipster Slackbot & Using Slack as an Aggregator
+# Atticus the Hipster Slackbot, and Using Slack as an Aggregator
 
 **Atticus the Hipster Slackbot.** 
 

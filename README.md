@@ -40,7 +40,17 @@ RSS links can be hard to find. I use a Chrome Extension to find RSS feed links: 
 
 #### Youtube Channels
 
-Youtube Channels provide RSS feeds! This is a great way to keep up to date on high quality content, such as new university courses.
+Youtube Channels provide RSS feeds! This is a great way to keep up to date on high quality content, such as new university courses. 
+
+You can manually find the RSS feed for a channel using the following URL: `https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>`. You can find the `CHANNEL_ID` from the URL of any channel:
+
+![](https://raw.githubusercontent.com/njoubert/atticus-bot/master/assets/youtube-channel-id.png)
+
+
+You can also download an `OPM` file containing all RSS feeds for your subscriptions. Go to [Subscription Manager](https://www.youtube.com/subscription_manager). Find this button: 
+
+![](https://raw.githubusercontent.com/njoubert/atticus-bot/master/assets/youtube-export-subscriptions.png)
+
 
 ### IFTTT 
 

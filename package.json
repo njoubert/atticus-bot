@@ -1,0 +1,22 @@
+{
+  "name": "atticus-bot",
+  "version": "1.0.0",
+  "description": "Atticus the Hipster Slackbot, keeps you on the cutting edge of your interests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njoubert/atticus-bot.git"
+  },
+  "author": "Niels Joubert njoubert.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njoubert/atticus-bot/issues"
+  },
+  "homepage": "https://github.com/njoubert/atticus-bot#readme",
+  "dependencies": {
+    "@slack/client": "^3.16.0"
+  }
+}

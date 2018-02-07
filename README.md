@@ -60,7 +60,13 @@ It works especially great if you want to monitor a _search_, such as Craigslist,
 
 #### Craigslist
 
-I use IFTTT.com to monitor Craigslist searches.
+I use IFTTT.com to monitor Craigslist searches. First, customize your craigslist search appropriately. Here's an example of searching for 4+ bedrooms in a subset of SF neighborhoods. 
+
+![](https://raw.githubusercontent.com/njoubert/atticus-bot/master/assets/craigslist-search.png)
+
+Then, create an applet in IFTTT:
+
+![](https://raw.githubusercontent.com/njoubert/atticus-bot/master/assets/ifttt-craigslist.png)
 
 ## Using Atticus
 

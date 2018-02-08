@@ -6,7 +6,17 @@ It contains many `#intel-` channels.
 
 The point of these `#intel-` channels is to aggregate **new ideas**. I’m attempting to help me/us stay on top of the latest research, news, industry developments. I once heard academic conferences described as a *marketplace of ideas*. The `#intel-` channels are the [Bloomberg Terminal](https://en.wikipedia.org/wiki/Bloomberg_Terminal) of the Idea Marketplace. This is in contrast to a place like reddit, where lots of discussion happens around ideas that has been around for a while. 
 
-`stealthprojectbunker` uses several ways to aggregate this information, descibed next:
+### Where does this data come from?
+
+`stealthprojectbunker` uses several ways to aggregate this information. Mainly RSS feeds and IFTTT applets, but also the `atticus` bot, email scrapers, etc.
+
+### Can I post stuff into `#intel-` channels?
+
+Yes! Absolutely! I think Slack can be a super great aggregator because it _mixes_ automated feeds and manual postings. 
+
+### Can I invite people to `stealthprojectbunker`? 
+
+Sure, ping me and we can chat, and I'll send 'em an invite.
 
 # Atticus the Hipster Slackbot, and Using Slack as an Aggregator
 

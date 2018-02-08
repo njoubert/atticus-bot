@@ -1,10 +1,10 @@
-# STEALTHPROJECTBUNKER `#intel` channels
+# STEALTHPROJECTBUNKER `#intel-` channels
 
 `stealthprojectbunker` is my semi-professional but non-company-specific slack hangout. 
 
 It contains many `#intel-` channels.
 
-The point of these #intel- channels is to aggregate **new ideas**. I’m attempting to help me/us stay on top of the latest research, news, industry developments. I once heard academic conferences described as a *marketplace of ideas*. The `#intel-` channels are the [Bloomberg Terminal](https://en.wikipedia.org/wiki/Bloomberg_Terminal) of the Idea Marketplace. This is in contrast to a place like reddit, where lots of discussion happens around ideas that has been around for a while. 
+The point of these `#intel-` channels is to aggregate **new ideas**. I’m attempting to help me/us stay on top of the latest research, news, industry developments. I once heard academic conferences described as a *marketplace of ideas*. The `#intel-` channels are the [Bloomberg Terminal](https://en.wikipedia.org/wiki/Bloomberg_Terminal) of the Idea Marketplace. This is in contrast to a place like reddit, where lots of discussion happens around ideas that has been around for a while. 
 
 `stealthprojectbunker` uses several ways to aggregate this information, descibed next:
 

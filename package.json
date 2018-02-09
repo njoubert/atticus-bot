@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/njoubert/atticus-bot#readme",
   "dependencies": {
-    "@slack/client": "^3.16.0"
+    "@slack/client": "^3.16.0",
+    "dotenv": "^5.0.0",
+    "request": "^2.83.0"
   }
 }

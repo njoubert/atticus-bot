@@ -1,7 +1,8 @@
 const { RtmClient, CLIENT_EVENTS, WebClient } = require('@slack/client');
+require('dotenv').config();
 
 // Use the Bot scope.
-const token = process.env.SLACK_TOKEN
+const token = process.env.SLACK_BOT_TOKEN
 
 // Cache of data
 const appData = {};
@@ -21,7 +22,7 @@ web.channels.list()
   .then((res) => {
     // `res` contains information about the channels
     appData.intelchannels = res.channels.filter(c => c.name.startsWith("intel-") && c.is_archived == false);
-    console.log("Found ", appData.intelchannels.length, " intel channels");
+    appData.intelchannels.forEach(c => console.log(c.id, c.name))
   })
   .catch(console.error);
 

@@ -31,3 +31,9 @@ P5: Fancier extraction?
 - get a list of sites monitored in each channel
 
 
+### Deets
+
+
+- P0: use http request 
+- P1:  download and check dom: https://github.com/jsdom/jsdom
+- P2: phantomjs

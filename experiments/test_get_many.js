@@ -19,6 +19,7 @@ sites = [
   {'channelid':'C96CJHFV0', 'url': 'https://google.com/'}
 ];
 
+// Posts a message to Slack with the given site details.
 function poster(site) {
   message = 'Fresh organic homegrown content! ' + site.url;
   
@@ -38,6 +39,8 @@ function poster(site) {
   web.chat.postMessage(site.channelid, message);
 }
 
+// Checks all sites for changes.
+//   approach: compare hash of body html.
 function checker(onchange) {
   sites.forEach(site => {
     if (!site.hash) {
@@ -66,6 +69,7 @@ function checker(onchange) {
   });
 }
 
+// Repeatedly call `checker()`
 function repeat() {
   console.log((new Date()).toString(), "checking sites");
   checker(poster);

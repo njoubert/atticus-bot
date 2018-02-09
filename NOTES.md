@@ -37,3 +37,8 @@ P5: Fancier extraction?
 - P0: use http request 
 - P1:  download and check dom: https://github.com/jsdom/jsdom
 - P2: phantomjs
+
+
+### Links:
+
+- jsdom to monitor https://stsourlidakis.com/blog/monitor-elements-on-a-webpage-with-nodejs/

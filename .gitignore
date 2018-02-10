@@ -1,6 +1,9 @@
 # ENV files
 .env
 
+# DB files
+.db.json
+
 # Mac
 .DS_Store
 

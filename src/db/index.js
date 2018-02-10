@@ -1,7 +1,8 @@
 const fs = require('fs');
 
+require('dotenv').config();
 
-function onChange (object, onChange) {
+var onChange = function (object, onChange) {
   const handler = {
     get(target, property, receiver) {
       try {
@@ -26,9 +27,9 @@ function onChange (object, onChange) {
 };
 
 
-module.exports = (function(db_path) {
+module.exports = (function() {
 	
-  DB_PATH = db_path || path.join(__dirname,'.db.json');
+  DB_PATH = process.env.DB_FILE || path.join(__dirname,'.db.json');
 
   var _db = {}
 

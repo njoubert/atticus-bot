@@ -6,7 +6,7 @@ require('dotenv').config();
 
 
 
-var sites = require('../db').sites;
+const db = require('../db/');
 
 // Posts a message to Slack with the given site details.
 function poster(site) {
@@ -31,14 +31,14 @@ function poster(site) {
 // Checks all sites for changes.
 //   approach: compare hash of body html.
 var check_all_sites = function (onchange) {
-  sites.forEach(site => {
+  db.sites.forEach(site => {
     if (!site.hash) {
       request(site.url, function(error, response, body) {
         if (response.statusCode < 400) {
           var hasher = crypto.createHash('sha256');
           hasher.update(body);
           site.hash = hasher.digest('hex');
-          site.lastchecked = new Date();
+          site.lastchecked = (new Date()).toString();
         }
       });
     } else {
@@ -47,7 +47,7 @@ var check_all_sites = function (onchange) {
           var hasher = crypto.createHash('sha256');
           hasher.update(body);
           newhash = hasher.digest('hex');
-          site.lastchecked = new Date();
+          site.lastchecked = (new Date()).toString();
           if (newhash != site.hash) {
             site.hash = newhash;
             onchange(site);
@@ -61,7 +61,7 @@ var check_all_sites = function (onchange) {
 // Repeatedly call `checker()`
 function repeat() {
   console.log((new Date()).toString(), "checking sites");
-  checker(poster);
+  check_all_sites(poster);
   setTimeout(repeat, 5000);
 }
 repeat();

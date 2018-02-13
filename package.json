@@ -4,7 +4,9 @@
   "description": "Atticus the Hipster Slackbot, keeps you on the cutting edge of your interests.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/slashcmd/server.js",
+    "check-all": "node src/checker/checker.js"
   },
   "repository": {
     "type": "git",

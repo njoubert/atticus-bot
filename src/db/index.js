@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 require('dotenv').config();
 
@@ -28,9 +29,7 @@ var onChange = function (object, onChange) {
 
 
 module.exports = (function() {
-	
   DB_PATH = process.env.DB_FILE || path.join(__dirname,'.db.json');
-
   var _db = {}
 
   try {
@@ -45,11 +44,9 @@ module.exports = (function() {
   //make an onchange handlewr
   //save every time a change happens
   //doing it sync to avoid corrupting data
-
   const db = onChange(_db, function() {
     fs.writeFileSync(DB_PATH, JSON.stringify(db));
   });
 
   return db;
-
 })();

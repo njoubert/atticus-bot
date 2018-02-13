@@ -20,7 +20,9 @@
   "homepage": "https://github.com/njoubert/atticus-bot#readme",
   "dependencies": {
     "@slack/client": "^3.16.0",
+    "body-parser": "^1.18.2",
     "dotenv": "^5.0.0",
+    "express": "^4.16.2",
     "ioredis": "^3.2.2",
     "request": "^2.83.0"
   }
